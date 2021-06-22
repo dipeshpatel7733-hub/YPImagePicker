@@ -5,6 +5,9 @@
       location = "group:YPImagePickerExample.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:Package">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
