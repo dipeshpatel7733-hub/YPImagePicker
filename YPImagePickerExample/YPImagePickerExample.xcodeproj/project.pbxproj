@@ -20,7 +20,7 @@
 		39ECAC1A4280ED3A66999C55 /* Pods_YPImagePickerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YPImagePickerExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B0E1B9D207069630048E95B /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5F01F9DE20DCC5EA007432E4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		6FE851662681DA5F008BFB92 /* Package */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Package; sourceTree = "<group>"; };
+		6FE851672681E47A008BFB92 /* Package */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Package; sourceTree = "<group>"; };
 		71524A8C206FD954002F3162 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		96E2AA2442DD86418F1EC0AB /* Pods-YPImagePickerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPImagePickerExample.release.xcconfig"; path = "Target Support Files/Pods-YPImagePickerExample/Pods-YPImagePickerExample.release.xcconfig"; sourceTree = "<group>"; };
 		991C0E5520567E1300764131 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		994289FD1E7BE02400B765A9 = {
 			isa = PBXGroup;
 			children = (
-				6FE851662681DA5F008BFB92 /* Package */,
+				6FE851672681E47A008BFB92 /* Package */,
 				99428A081E7BE02400B765A9 /* YPImagePickerExample */,
 				99428A071E7BE02400B765A9 /* Products */,
 				99428A231E7BE17800B765A9 /* Frameworks */,
