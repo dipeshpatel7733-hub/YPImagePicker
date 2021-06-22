@@ -18,6 +18,14 @@ final class YPLibraryView: UIView {
     @IBOutlet weak var assetZoomableView: YPAssetZoomableView!
     @IBOutlet weak var assetViewContainer: YPAssetViewContainer!
     @IBOutlet weak var assetViewContainerConstraintTop: NSLayoutConstraint!
+  
+  @IBOutlet weak var multipleBgView: UIView!
+  @IBOutlet weak var selectMultipleButton: UIButton!
+  @IBOutlet weak var recentsButton: UIButton!
+  
+  @IBOutlet weak var downArrowImage: UIImageView!
+  @IBOutlet weak var multipleImage: UIImageView!
+  
     
     let maxNumberWarningView = UIView()
     let maxNumberWarningLabel = UILabel()
@@ -27,6 +35,9 @@ final class YPLibraryView: UIView {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+      downArrowImage.image = UIImage(named: "DownArrowGray")
+      multipleImage.image = UIImage(named: "MultipleImageBlack")
+      multipleBgView.layer.cornerRadius = 15
         
         sv(
             line

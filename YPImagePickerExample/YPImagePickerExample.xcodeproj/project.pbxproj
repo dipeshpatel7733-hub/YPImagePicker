@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6FE8516A2681F087008BFB92 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE851692681F087008BFB92 /* ExampleViewController.swift */; };
+		6FE851792682412B008BFB92 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FE851752682412B008BFB92 /* Lato-Italic.ttf */; };
+		6FE8517A2682412B008BFB92 /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FE851762682412B008BFB92 /* Lato-Semibold.ttf */; };
+		6FE8517B2682412B008BFB92 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FE851772682412B008BFB92 /* Lato-Bold.ttf */; };
+		6FE8517C2682412B008BFB92 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FE851782682412B008BFB92 /* Lato-Regular.ttf */; };
+		6FE8517D268244C3008BFB92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99428A101E7BE02400B765A9 /* Assets.xcassets */; };
 		99428A0A1E7BE02400B765A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99428A091E7BE02400B765A9 /* AppDelegate.swift */; };
-		99428A111E7BE02400B765A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99428A101E7BE02400B765A9 /* Assets.xcassets */; };
 		99428A141E7BE02400B765A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99428A121E7BE02400B765A9 /* LaunchScreen.storyboard */; };
 		99A052A61F20DF21005600B3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99A052A81F20DF21005600B3 /* Localizable.strings */; };
 		E4B8B87ACE0F8D7E7C9E8B2A /* Pods_YPImagePickerExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39ECAC1A4280ED3A66999C55 /* Pods_YPImagePickerExample.framework */; };
@@ -20,6 +25,11 @@
 		3B0E1B9D207069630048E95B /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5F01F9DE20DCC5EA007432E4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		6FE851682681E740008BFB92 /* Package */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Package; path = ../Package; sourceTree = "<group>"; };
+		6FE851692681F087008BFB92 /* ExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		6FE851752682412B008BFB92 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		6FE851762682412B008BFB92 /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		6FE851772682412B008BFB92 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		6FE851782682412B008BFB92 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 		71524A8C206FD954002F3162 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		96E2AA2442DD86418F1EC0AB /* Pods-YPImagePickerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPImagePickerExample.release.xcconfig"; path = "Target Support Files/Pods-YPImagePickerExample/Pods-YPImagePickerExample.release.xcconfig"; sourceTree = "<group>"; };
 		991C0E5520567E1300764131 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -54,9 +64,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FE8516B268240E3008BFB92 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6FE8516C268240E9008BFB92 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6FE8516C268240E9008BFB92 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6FE851772682412B008BFB92 /* Lato-Bold.ttf */,
+				6FE851752682412B008BFB92 /* Lato-Italic.ttf */,
+				6FE851782682412B008BFB92 /* Lato-Regular.ttf */,
+				6FE851762682412B008BFB92 /* Lato-Semibold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		994289FD1E7BE02400B765A9 = {
 			isa = PBXGroup;
 			children = (
+				6FE8516B268240E3008BFB92 /* Resources */,
 				6FE851682681E740008BFB92 /* Package */,
 				99428A081E7BE02400B765A9 /* YPImagePickerExample */,
 				99428A071E7BE02400B765A9 /* Products */,
@@ -78,6 +108,7 @@
 			children = (
 				EBFC7A3B260352D800D49AA6 /* Podfile */,
 				99428A091E7BE02400B765A9 /* AppDelegate.swift */,
+				6FE851692681F087008BFB92 /* ExampleViewController.swift */,
 				99A052A81F20DF21005600B3 /* Localizable.strings */,
 				99428A101E7BE02400B765A9 /* Assets.xcassets */,
 				99428A121E7BE02400B765A9 /* LaunchScreen.storyboard */,
@@ -181,10 +212,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FE8517B2682412B008BFB92 /* Lato-Bold.ttf in Resources */,
+				6FE851792682412B008BFB92 /* Lato-Italic.ttf in Resources */,
 				99428A141E7BE02400B765A9 /* LaunchScreen.storyboard in Resources */,
+				6FE8517C2682412B008BFB92 /* Lato-Regular.ttf in Resources */,
 				99A052A61F20DF21005600B3 /* Localizable.strings in Resources */,
 				EBFC7A3C260352D800D49AA6 /* Podfile in Resources */,
-				99428A111E7BE02400B765A9 /* Assets.xcassets in Resources */,
+				6FE8517D268244C3008BFB92 /* Assets.xcassets in Resources */,
+				6FE8517A2682412B008BFB92 /* Lato-Semibold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99428A0A1E7BE02400B765A9 /* AppDelegate.swift in Sources */,
+				6FE8516A2681F087008BFB92 /* ExampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
